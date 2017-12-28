@@ -70,7 +70,7 @@ void *check(void *data){
 		printf("stime : %s\t", ptr);	//stime
 		num2 = atoi(ptr);
 
-		printf("total time : %d\n", num1+num2);
+		printf("total time : %d\n", (num1+num2)*100);
 
 		k=0;
 
